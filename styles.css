@@ -1,0 +1,68 @@
+h1 {
+    color: black;
+    font-size: 300%;
+    font-family: Verdana;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana;
+    font-size: 125%;
+    padding-right: 39%;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 125%;
+}
+
+h2, h3 {
+    display: inline;
+}
+
+h4 {
+    font-family: Verdana;
+    font-size: 200%;
+    margin-bottom: -3%;
+}
+
+#statstext {
+    font-size: 300%;
+    text-align: center;
+}
+
+body {
+    background-image: url("backgrounddd.jpg");
+    background-size: 115%;
+}
+
+#input {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+}
+
+#submit {
+    margin-top: 5px;
+}
+
+#caloriesinput {
+    width: 97%;
+}
+
+#proteininput {
+    width: 97%;
+}
+
+#caloriesdiv, #proteindiv {
+    width: 49%;
+    display: inline-block;
+}
+
+#stats {
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3%;
+}

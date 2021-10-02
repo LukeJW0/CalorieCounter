@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="caloriejs.js"></script>
+</head>
+
+<h1 id="header">Luke's Calorie Counter</h1>
+<div id="input">
+    <div id="caloriesdiv">
+        <h2>Calories</h2>
+        <form onsubmit="return false;">
+            <input type="text" id="caloriesinput"></input>
+        </form>
+    </div>
+    <div id="proteindiv">
+        <h3>Protein (g)</h3>
+        <form onsubmit="return false;">
+            <input type="text" id="proteininput"></input>
+        </form>
+    </div>
+    <button type="button" onclick="calculate()" id="submit">Submit</button>
+    <button type="button" onclick="storage()" id="storage">Load</button>
+    <button type="button" onclick="storageclear()" id="clear">Clear</button>
+    <button type="button" onclick="statsexport()" id="export">Export</button>
+</div>
+
+<div id="stats">
+    <h4 id="statstext">Statistics</h4>
+    <h4 id="lastentered">You last ate ? Calories and ?g Protein</h4>
+    <h4 id="eatentoday">Today, you've eaten ? Calories and ?g of Protein.</h4>
+</div>

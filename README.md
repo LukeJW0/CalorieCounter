@@ -10,4 +10,4 @@ By entering the calories and protein of what you eat throughout the day, the web
 - Export: Creates a savable text file containing the data.
 
 # Exported file
-Saves each and every entry. The top line is a list containing the amount of calories. Second line is a listt containing the amount of protein. Third line is a list containing the date (Day of the month) of each entry. All ordered with each other.
+Saves each and every entry. The top line is a list containing the amount of calories. Second line is a list containing the amount of protein. Third line is a list containing the date (Day of the month) of each entry. All ordered with each other.

@@ -32,8 +32,8 @@ h4 {
 }
 
 body {
-    background-image: url("backgrounddd.jpg");
     background-size: 115%;
+    background-color: rgb(200, 200, 200);
 }
 
 #input {
